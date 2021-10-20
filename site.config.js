@@ -12,9 +12,9 @@ module.exports = {
   author: 'rick',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: "zephyr's blog, recording front-end learning stuff",
+  socialImageTitle: "zephyr's blog",
+  socialImageSubtitle: "zephyr's blog",
 
   // social usernames (optional)
   twitter: '',
@@ -23,8 +23,8 @@ module.exports = {
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: '👽',
+  defaultPageCover: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=3600',
   defaultPageCoverPosition: 0.5,
 
   // image CDN host to proxy all image requests through (optional)
@@ -47,5 +47,8 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null
+  pageUrlOverrides: {
+    '/code': 'a9c97bf453d84b8ba84ebc17a3fccd53',
+    '/blog': 'd3ef6c1cf8af456db624a4355da90e6b'
+  }
 }
